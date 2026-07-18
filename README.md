@@ -58,15 +58,25 @@ WanderStay is a full-stack web application inspired by Airbnb, built to practice
 
 Major_Project/
 ├── controllers/     # Route logic
+
 ├── init/            # DB seeding/initialization
+
 ├── models/          # Mongoose schemas (Listing, Review, User)
+
 ├── public/          # Static assets (CSS, JS)
+
 ├── routes/          # Express route definitions
+
 ├── utils/           # Helper utilities (ExpressError, wrapAsync)
+
 ├── views/           # EJS templates
+
 ├── app.js           # App entry point
+
 ├── cloudConfig.js   # Cloudinary configuration
+
 ├── middleware.js     # Auth & validation middleware
+
 └── schema.js         # Joi validation schemas
 
 
@@ -95,10 +105,15 @@ The app will run on `http://localhost:3000` (or your configured port).
 ## 🔑 Environment Variables
 
 Create a `.env` file in the root directory with the following:
+
 ATLASDB_URL=your_mongodb_connection_string
+
 CLOUD_NAME=your_cloudinary_cloud_name
+
 CLOUD_API_KEY=your_cloudinary_api_key
+
 CLOUD_API_SECRET=your_cloudinary_api_secret
+
 SECRET=your_session_secret
 
 ---
